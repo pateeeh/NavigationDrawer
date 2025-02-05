@@ -9,7 +9,8 @@
         android:id="@+id/nav_home"
         android:name="com.example.mynavigationdrawer.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -34,4 +35,10 @@
         android:name="com.example.mynavigationdrawer.ui.SubwayActivity"
         android:label="@string/menu_subway"
         tools:layout="@layout/activity_subway" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.mynavigationdrawer.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
+
 </navigation>
